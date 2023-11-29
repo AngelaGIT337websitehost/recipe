@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+html{
+    background-color: rgba(122, 191, 191, .5);
+}
+body{
+    width: 80%;
+    color: #0D0D0D;
+    background-color: #f2f2f2;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+
+a>img{
+    display: none;
+    height: 0px;
+    width:0px;
+    
+}
+#menu a{
+    display: none;
+    height:0px;
+    width:0px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    text-align: center;
+    box-shadow:0px 2px 2px #b8b5b5;
+    height:90px;
+    grid-gap: 0px;
+    
+    background-color: #EB5428;
+}
+#hamburger{
+    background-color: #f2f2f2;
+    padding-top: 10px;
+}
+#logo{
+    padding-top: 10px;
+}
+#avatar{
+    background-color: #f2f2f2;
+    padding-top: 10px;
+}
+#menu ul{
+    display: none;
+}
+#search{
+    margin:auto;
+    width:80%;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+#search input{
+    height: 30px;
+    border-color: #EB5428;
+    
+}
+#search svg{
+    height: 30px;
+    background-color: #EB5428;
+}
+#intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    text-align: center;
+    height:90px;
+    grid-gap: 0px;
+    color: #EB5428;
+    padding: 0px;
+}
+#intro ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li {
+    display: inline;
+}
+a{
+    color: #EB5428;
+}
+.taco img{
+    width:100%;
+    height:80%;
+}
+#recipe li{
+    margin-bottom: 10px;
+}
+#recipe ol{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+#side{
+    background-color: #7ABFBF;
+    box-shadow:0px 2px 10px #b8b5b5;
+}
+#list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    
+}
+#list img{
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+}
+#social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    height:90px;
+    grid-gap: 0px;
+    color: #EB5428;
+    margin-top: 20px;
+}
+#goodeats img{
+    margin:auto;
+    height: 200px;
+    width: 200px;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+    text-transform:uppercase;
+}
+nav a, nav span, #menu li, #social li, footer{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+p{
+    margin-left:10px;
+    margin-right:10px;
+}
+p, li, nav, input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+#list dd{
+    margin-left: 120px;
+}
+#list dt{
+    margin-left: 120px;
+}
+dd{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+dt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+   
+    
+    #hamburger {
+        display: none;
+    }
+    #logo{
+        position: absolute;
+        top: 0px;
+        left: 10%;
+        padding: 0px;
+        border:20px #EB5428;
+    }
+    #avatar{
+        background-color: #f2f2f2;
+        position: absolute;
+        top: 0px;
+        right: 12%;
+        padding: 0px;
+    }
+    #search{
+        position: absolute;
+        top: 5px;
+        right: 20%;
+        margin:0;
+        width:80%;
+        padding-top: 0px;
+        text-align:right;
+    }
+    #menu ul{
+        display: inline;
+    }
+    
+    a>img{
+        display: inline;
+        height: 50px;
+        width:50px;
+        
+    }
+    #menu a{
+        display: inline;
+    }
+    #menu{
+        display:grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        box-shadow:0px 0px 0px #b8b5b5;
+        background-color: #f2f2f2;
+        
+    }
+    #mainnav{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 80px;
+        margin-top: 100px;
+        width: 100%;
+        box-shadow:0px 2px 0px #b8b5b5;
+        padding-left: 0px;
+    }
+    h1{
+        text-align: left;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    #intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1.5fr;
+        text-align: center;
+        height:100px;
+        grid-gap: 0px;
+        color: #EB5428;
+        padding: 0px;
+        margin: 0;
+        background:rgba(255, 255, 255, .7);
+        position:relative;
+        z-index:1;
+    }
+    #intro li{
+        padding-top: 20px;
+    }
+    #jump{
+        display: none;
+    }
+    .taco img{
+        position:relative;
+        top:-90px;
+    }
+    article{
+        position:relative;
+        top:-90px;
+    }
+    .details{
+        position:relative;
+        top:-90px;
+        text-align: center;
+    }
+    #recipe{
+        position:relative;
+        top:-90px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    #recipe ol li{
+        padding: 20px 30px 10px 30px;
+    }
+    #side{
+        position:relative;
+        top:-90px;
+        margin-bottom: 10px;
+    }
+    #list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr 1fr;
+        
+    }
+    #list img{
+        height: 100px;
+        width: 100px;
+        margin-left: 0px;  
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1280px){
+    #search{
+        position: relative;
+        top: 30px;
+        left: 3%;
+        margin:0;
+        width:100%;
+        padding-top: 0px;
+        text-align:center;
+    }
+    #mainnav{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 80px;
+        margin-top: 10px;
+        width: 100%;
+        box-shadow:0px 2px 0px #b8b5b5;
+        padding-left: 0px;
+    }
+    #logo svg{
+        height:70px;
+        width: 70px;
+        border:20px #EB5428;
+    }
+    #logo{
+        background-color: #EB5428;
+        height: 90px;
+        width: 90px;
+    }
+    h1{
+        text-align: center;
+        margin: 0px;
+        padding-top: 50px;
+    }
+    #street{
+        display:grid;
+        grid-template-columns: 1fr 3fr 4fr ;
+        position: relative;
+        top:100px;
+    }
+    #intro {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1.5fr;
+        text-align: center;
+        height:100px;
+        grid-gap: 0px;
+        color: #EB5428;
+        padding: 0px;
+        margin: 0;
+        background:rgba(255, 255, 255,);
+        position:relative;
+        z-index:0;
+        border: 5px #EB5428;
+    }
+    #intro li{
+        padding-top: 0px;
+        
+    }
+    .details{
+        background-color: #0D0D0D;
+        color: #7ABFBF;
+    }
+    #detail{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows:1fr;
+        
+    }
+    #list img{
+        height: 150px;
+        width: 150px;
+        margin: 20px 20px 20px 20px;
+        clear: left; 
+    }
+    #goodeats{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+}
